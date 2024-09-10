@@ -25,7 +25,7 @@ from transformers import (
     set_seed,
 )
 
-# from peft import get_peft_model, LoraConfig, TaskType
+from peft import get_peft_model, LoraConfig, TaskType
 from transformers.trainer_callback import TrainerCallback
 
 # from dsp.modules.finetuning.fid import *
